@@ -1,0 +1,64 @@
+.createProduct {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.createProduct__inputRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  background-color: #176db7;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: baseline;
+  outline: none;
+}
+.createProductButton {
+  width: 120px;
+}
+
+.button:hover, .button:focus {
+  background-color: #0090ff;
+}
+
+.pageContainer {
+  padding-top: 50px;
+  width: 800px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.currentPage {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.currentPage p {
+  line-height: 24px;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.currentPage__nextPageButton {
+  margin-left: 20px;
+}
+
